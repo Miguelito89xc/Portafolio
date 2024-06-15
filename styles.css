@@ -1,0 +1,72 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero {
+    height: 80vh;
+    background: linear-gradient(to right, #bbbbbb, #afaaaa); 
+    color: rgb(0, 0, 0);
+  }
+  
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgb(101, 221, 26);
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .btn-primary {
+    background-color: #000000; 
+    border-color: #fffbfe; 
+  }
+  
+  
+  
+  .bg-light {
+    background-color: #969696;
+  }
+  
+  .text-primary {
+    color: #06be00;
+  }
+  
+  
+  footer {
+    color: #d11818;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .hero {
+      height: 60vh;
+    }
+  
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    .section-title {
+      font-size: 2rem;
+    }
+  }
+  
+  .Miguel {
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+  }
+
+  

@@ -1,0 +1,158 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  
+  <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+    <a class="navbar-brand" href="#">Mi Portafolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#proyectos">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#habilidades">Habilidades</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacto">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section class="hero d-flex align-items-center justify-content-center">
+    <div class="text-center">
+      <img class="Miguel mb-4" src="img/file.enc" alt="Imagen de Miguel">
+      <h1 class="mb-4">Sobre Mi</h1>
+      <p class="lead">Soy un entusiasta programador en mis primeros pasos en el mundo del desarrollo web. Actualmente, mi enfoque se centra en dominar las bases fundamentales de HTML, CSS y Bootstrap. Estoy fascinado por la capacidad de estructurar páginas web con HTML, aplicar estilos visualmente atractivos utilizando CSS, y aprovechar la potencia y facilidad de uso de Bootstrap para crear diseños responsivos y funcionales.</p>
+  
+      <a href="#proyectos" class="btn btn-primary btn-lg mt-3">Ver Proyectos</a>
+    </div>
+  </section>
+  
+
+
+  <section id="proyectos" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Mis Proyectos</h2>
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="img/ZAPATOS.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto 1</h5>
+              <p class="card-text">He creado una página web de zapatos utilizando HTML, CSS y Bootstrap para el diseño responsivo. La estructura incluye un encabezado con barra de navegación, s
+                secciones para mostrar productos, 
+                detalles de producto con imágenes y descripciones, formulario de contacto y un pie de página con información adicional y enlaces a redes sociales</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="img/maquillaje.avif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto 2</h5>
+              <p class="card-text">He diseñado una página web de maquillaje utilizando HTML, CSS y Bootstrap para garantizar un diseño responsivo y atractivo. 
+                La página incluye un encabezado con barra de navegación, secciones dedicadas a 
+                diferentes tipos de productos de maquillaje como base, labiales, y sombras de ojos, cada una con
+                 imágenes y descripciones detalladas. Además, cuenta con testimonios de clientes, 
+                formulario de contacto y un pie de página con información adicional y enlaces útiles.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="img/oro.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto 3</h5>
+              <p class="card-text">Creé una página web para una tienda de oro utilizando HTML, CSS y Bootstrap. Estructuré el contenido, diseñé el aspecto visual 
+                con colores cálidos y dorados, integré imágenes de productos y funcionalidades como formulario de contacto y mapas interactivos, garantizando una 
+                experiencia de usuario fluida y atractiva en diversos dispositivos.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section id="habilidades" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Mis Habilidades</h2>
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">HTML5</h5>
+              <p class="card-text">Nivel Suave</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">CSS3</h5>
+              <p class="card-text">Nivel avanzado</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">JavaScript</h5>
+              <p class="card-text">Nivel intermedio</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section id="contacto" class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-5">Contacto</h2>
+      <p class="lead">¡Hablemos! Puedes contactarme utilizando el formulario o a través de mis redes sociales.</p>
+      <form>
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Nombre">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="Correo electrónico">
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" rows="5" placeholder="Mensaje"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+      </form>
+      <div class="mt-4">
+        <a href="#" class="mx-2"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="#" class="mx-2"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="#" class="mx-2"><i class="fab fa-github fa-2x"></i></a>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="bg-primary text-white text-center py-4">
+    <p>&copy; 2024 | Todos los derechos reservados | Desarrollado por <a href="#">Tu Nombre</a></p>
+  </footer>
+
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
